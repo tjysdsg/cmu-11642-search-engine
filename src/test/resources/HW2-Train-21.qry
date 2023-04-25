@@ -1,0 +1,3 @@
+17:#AND( #WSUM( 0.1 poker.url 0.2 poker.title 0.3 poker.keywords 0.4 poker.body ) #WSUM( 0.1 tournaments.url 0.2 tournaments.title 0.3 tournaments.keywords 0.4 tournaments.body ) ) 
+66:#AND( #WSUM( 0.1 income.url 0.2 income.title 0.3 income.keywords 0.4 income.body ) #WSUM( 0.1 tax.url 0.2 tax.title 0.3 tax.keywords 0.4 tax.body ) #WSUM( 0.1 return.url 0.2 return.title 0.3 return.keywords 0.4 return.body ) #WSUM( 0.1 online.url 0.2 online.title 0.3 online.keywords 0.4 online.body ) ) 
+188:#AND( #WSUM( 0.1 internet.url 0.2 internet.title 0.3 internet.keywords 0.4 internet.body ) #WSUM( 0.1 phone.url 0.2 phone.title 0.3 phone.keywords 0.4 phone.body ) #WSUM( 0.1 service.url 0.2 service.title 0.3 service.keywords 0.4 service.body ) ) 

@@ -1,0 +1,2 @@
+103:#and( #or( #or( madam.title madam.body madam.url madam.keywords ) #or( cj.title cj.body cj.url cj.keywords ) ) #or( walker.title walker.body walker.url walker.keywords ) )
+106:#and( #and( #or( universal.title universal.body universal.url universal.keywords ) #or( animal.title animal.body animal.url animal.keywords ) #or( cuts.title cuts.body cuts.url cuts.keywords ) ) #or( reviews.title reviews.body reviews.url reviews.keywords ) )

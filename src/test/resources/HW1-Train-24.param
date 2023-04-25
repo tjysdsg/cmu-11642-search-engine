@@ -1,0 +1,5 @@
+indexPath=E:\index-cw09
+retrievalAlgorithm=UnrankedBoolean
+queryFilePath=src\test\resources\HW1-Train-24.qry
+trecEvalOutputPath=tmp\HW1-Train-24.teIn
+trecEvalOutputLength=1000

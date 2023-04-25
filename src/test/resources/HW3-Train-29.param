@@ -1,0 +1,14 @@
+indexPath=INPUT_DIR/index-cw09
+queryFilePath=TEST_DIR/HW3-Train-29.qry
+trecEvalOutputPath=OUTPUT_DIR/HW3-Train-29.teIn
+trecEvalOutputLength=398
+retrievalAlgorithm=BM25
+prf=BM25
+prf:numDocs=5
+prf:numTerms=4
+prf:Indri:origWeight=0.5
+BM25:k_1=1.6
+BM25:b=0.42
+BM25:k_3=0
+prf:expansionQueryFile=OUTPUT_DIR/HW3-Train-29.qryOut
+prf:initialRankingFile=TEST_DIR/HW3-Train-29.inRank

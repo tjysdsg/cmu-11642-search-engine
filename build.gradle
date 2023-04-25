@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.search_engine'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'search_engine.QryEval'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.8.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-params:5.8.1")
+    testImplementation("commons-io:commons-io:2.11.0")
+    testRuntimeOnly("commons-io:commons-io:2.11.0")
+
+    implementation files('src/main/java/search_engine/lucene-8.1.1/lucene-core-8.1.1.jar')
+    implementation files('src/main/java/search_engine/lucene-8.1.1/lucene-codecs-8.1.1.jar')
+    implementation files('src/main/java/search_engine/lucene-8.1.1/lucene-analyzers-common-8.1.1.jar')
+    implementation files('src/main/java/search_engine/lucene-8.1.1/QryEvalExtensions.jar')
+    implementation files('src/main/java/search_engine/RankLib/RankLib-2.17d.jar')
+}
+
+test {
+    useJUnitPlatform()
+
+    minHeapSize = "128m"
+    maxHeapSize = "8092m"
+    jvmArgs '-XX:MaxPermSize=8092m'
+
+    testLogging {
+        events 'started', 'passed'
+    }
+}

@@ -1,0 +1,3 @@
+66:#SUM( #SUM( income.title tax.title ) return online ) 
+105:#SUM( sonoma county medical services #SUM( #NEAR/5( county medical ) services.keywords ) ) 
+188:#SUM( #SUM( internet service ) phone.keywords ) 

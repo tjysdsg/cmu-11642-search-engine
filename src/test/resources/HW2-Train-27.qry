@@ -1,0 +1,4 @@
+17:#WSUM( 2.0 poker.title 1.0 #AND( poker tournaments ) ) 
+105:#WSUM( 0.3 #AND( sonoma.title services.title ) 0.4 #AND( sonoma services ) 0.3 #AND( county medical services ) ) 
+139:#WSUM( 0.2 rocky.body 0.2 news.body 0.2 #AND( mountain.title mountain.url mountain.keywords ) 0.4 #SYN( news curetherapy) ) 
+188:#WSUM( 2.0 internet.title 1.0 #AND( internet phone service ) ) 

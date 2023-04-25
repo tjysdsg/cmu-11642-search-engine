@@ -1,0 +1,3 @@
+78:#and( #or( ) #and( #or( dieting.title dieting.body dieting.url dieting.keywords ) ) #or( dieting ) )
+80:#and( #syn( #near/13( keyboard reviews ) ) #or( #and( keyboard.title reviews.title ) #and( keyboard.title reviews.title ) #and( keyboard.body reviews.body ) #and( keyboard.body reviews.body ) #and( keyboard.url reviews.url ) #and( keyboard.url reviews.url ) #and( keyboard.keywords reviews.keywords ) #and( keyboard.keywords reviews.keywords ) ) )
+90:#and( #and( mgb ) #and( #or( mgb.title mgb.body mgb.url mgb.keywords ) ) #and( mgb ) )

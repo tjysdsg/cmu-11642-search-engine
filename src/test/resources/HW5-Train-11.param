@@ -1,0 +1,14 @@
+indexPath=INPUT_DIR/index-cw09
+queryFilePath=TEST_DIR/HW5-Train-11.qry
+trecEvalOutputPath=OUTPUT_DIR/HW5-Train-11.teIn
+trecEvalOutputLength=100
+retrievalAlgorithm=BM25
+BM25:k_1=1.2
+BM25:b=0.75
+BM25:k_3=0
+diversity=TRUE
+diversity:maxInputRankingsLength=100
+diversity:maxResultRankingLength=50
+diversity:algorithm=PM2
+diversity:lambda=1
+diversity:intentsFile=TEST_DIR/HW5-Train-11.intents

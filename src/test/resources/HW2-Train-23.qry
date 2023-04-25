@@ -1,0 +1,1 @@
+139:#AND( #WSUM( 0.1 rocky.url 0.2 rocky.title 0.3 rocky.keywords 0.4 rocky.body ) #WSUM( 0.1 mountain.url 0.2 mountain.title 0.3 mountain.keywords 0.4 mountain.body ) #WSUM( 0.1 news.url 0.2 news.title 0.3 news.keywords 0.4 news.body ) ) 

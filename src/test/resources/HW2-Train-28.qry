@@ -1,0 +1,3 @@
+17:#WSUM( 0.3 #AND( poker.title tournaments.title ) 0.7 #WINDOW/100( poker tournaments ) ) 
+66:#WSUM( 0.3 #AND( income.title tax.title ) 0.4 #AND( income tax ) 0.3 #WINDOW/10( return online ) ) 
+139:#WSUM( 0.2 mountain.body 0.2 news.body 0.2 #AND( rocky.title rocky.url rocky.keywords ) 0.4 #WINDOW/50( rocky mountain news ) ) 

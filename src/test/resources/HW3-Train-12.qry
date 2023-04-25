@@ -1,0 +1,2 @@
+101:#wand( 0.70 #and( ritz carlton lake las vegas ) 0.80 #and( #near/3( ritz carlton ) #near/3( carlton lake ) #near/3( lake las ) #near/3( las vegas ) ) 0.76 #and( #window/30( ritz carlton ) #window/30( carlton lake ) #window/30( lake las ) #window/30( las vegas ) ) )
+103:#wand( 0.68 #and( madam cj walker ) 0.22 #and( #near/2( madam cj ) #near/2( cj walker ) ) 0.91 #and( #window/89( madam cj ) #window/89( cj walker ) ) )

@@ -1,0 +1,8 @@
+indexPath=INPUT_DIR/index-cw09
+retrievalAlgorithm=BM25
+queryFilePath=TEST_DIR/HW4-Exp-BOW.qry
+trecEvalOutputPath=OUTPUT_DIR/HW4-Exp-1.1a.teIn
+trecEvalOutputLength=1000
+BM25:k_1=1.2
+BM25:b=0.75
+BM25:k_3=0

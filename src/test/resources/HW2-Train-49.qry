@@ -1,0 +1,2 @@
+139:#AND( #AND( rocky #NEAR/7( mountain news ) ) #AND( mountain.title news.title ) ) 
+193:#AND( #AND( dog clean #SYN( up safety) bags ) #AND( dog.title clean.title ) ) 

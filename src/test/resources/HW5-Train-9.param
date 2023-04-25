@@ -1,0 +1,13 @@
+indexPath=INPUT_DIR/index-cw09
+queryFilePath=TEST_DIR/HW5-Train-9.qry
+trecEvalOutputPath=OUTPUT_DIR/HW5-Train-9.teIn
+trecEvalOutputLength=100
+retrievalAlgorithm=Indri
+Indri:mu=2500
+Indri:lambda=0.4
+diversity=True
+diversity:maxInputRankingsLength=100
+diversity:maxResultRankingLength=50
+diversity:algorithm=PM2
+diversity:lambda=0
+diversity:intentsFile=TEST_DIR/HW5-Train-9.intents

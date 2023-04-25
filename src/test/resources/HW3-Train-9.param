@@ -1,0 +1,14 @@
+indexPath=INPUT_DIR/index-cw09
+queryFilePath=TEST_DIR/HW3-Train-9.qry
+trecEvalOutputPath=OUTPUT_DIR/HW3-Train-9.teIn
+trecEvalOutputLength=116
+retrievalAlgorithm=Indri
+Indri:mu=2418
+Indri:lambda=0.4
+prf=Indri
+prf:numDocs=15
+prf:numTerms=7
+prf:Indri:mu=2000
+prf:Indri:origWeight=0.5
+prf:expansionQueryFile=OUTPUT_DIR/HW3-Train-9.qryOut
+prf:initialRankingFile=TEST_DIR/HW3-Train-9.inRank

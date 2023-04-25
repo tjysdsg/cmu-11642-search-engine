@@ -1,0 +1,7 @@
+indexPath=INPUT_DIR/index-cw09
+retrievalAlgorithm=Indri
+queryFilePath=TEST_DIR/HW2-Exp-2.1e.qry
+trecEvalOutputPath=OUTPUT_DIR/HW1-Exp-2.1e.teIn
+trecEvalOutputLength=1000
+Indri:mu=1E12
+Indri:lambda=0

@@ -1,0 +1,5 @@
+indexPath=INPUT_DIR/index-cw09
+retrievalAlgorithm=RankedBoolean
+queryFilePath=TEST_DIR/HW1-Exp-3a.qry
+trecEvalOutputPath=OUTPUT_DIR/HW1-Exp-3a.teIn
+trecEvalOutputLength=1000

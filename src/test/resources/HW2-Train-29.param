@@ -1,0 +1,7 @@
+indexPath=E:/index-cw09
+queryFilePath=src/test/resources/HW2-Train-29.qry
+trecEvalOutputPath=tmp/HW2-Train-29.teIn
+trecEvalOutputLength=800
+retrievalAlgorithm=Indri
+Indri:mu=1000
+Indri:lambda=0.4
